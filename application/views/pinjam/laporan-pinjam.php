@@ -18,10 +18,10 @@
                         <th scope="col">#</th>
                         <th scope="col">Nama Anggota</th>
                         <th scope="col">Armada</th>
-                        <th scope="col">Tanggal Pinjam</th>
-                        <th scope="col">Tanggal Kembali </th>
-                        <th scope="col">Tanggal Dikembalikan</th>
-                        <th scope="col">Total Denda</th>
+                        <th scope="col">Tanggal Booking</th>
+                        <th scope="col">Tanggal Brangkat </th>
+                        <th scope="col">Tanggal Kembali</th>
+                        <th scope="col">Total Dikon</th>
                         <th scope="col">Status</th>
                     </tr>
                 </thead>

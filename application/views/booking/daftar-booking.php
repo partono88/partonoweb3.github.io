@@ -11,8 +11,8 @@
                                 <th>Tanggal Booking</th>
                                 <th>ID User</th>
                                 <th>Aksi</th>
-                                <th>Denda / Buku /Hari</th>
-                                <th>Lama Pinjam</th>
+                                <th>Denda / Tiket /Hari</th>
+                                <th>Batas Booking</th>
                             </tr>
                             <?php
                             $no = 1;
@@ -25,7 +25,7 @@
                                     <td><?= $p['id_user']; ?></td>
                                     <form action="<?= base_url('pinjam/pinjamAct/' . $p['id_booking']); ?>" method="post">
                                         <td nowrap>
-                                            <button type="submit" class="btn btn-sm btn-outline-info"><i class="fas fa-fw fa-cart-plus"></i> Pinjam</button>
+                                            <button type="submit" class="btn btn-sm btn-outline-info"><i class="fas fa-fw fa-cart-plus"></i> Pesan</button>
                                         </td>
                                         <td>
                                             <input class="form-check-user rounded-sm" style="width:100px" type="text" name="denda" id="denda" value="5000">

@@ -128,7 +128,7 @@ class Booking extends CI_Controller
     {
         $id_user = $this->session->userdata('id_user');
         $data['user'] = $this->session->userdata('nama');
-        $data['armada'] = "Cetak Bukti Booking";
+        $data['judul'] = "Cetak Bukti Booking";
         $data['useraktif'] = $this->ModelUser->cekData(['id' => $this->session->userdata('id_user')])->result();
         $data['items'] = $this->db->query("select*from booking bo, booking_detail d, tiket bu where d.id_booking=bo.id_booking and d.id_tiket=bu.id and bo.id_user='$id_user'")->result_array();
         $this->load->library('pdf');

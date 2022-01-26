@@ -38,9 +38,9 @@
                 <th>No</th>
                 <th>Nama Anggota</th>
                 <th>Armada</th>
-                <th>Tanggal Pinjam</th>
+                <th>Tanggal Booking</th>
+                <th>Tanggal Berangkat</th>
                 <th>Tanggal Kembali</th>
-                <th>Tanggal Pengembalian</th>
                 <th>Total Denda</th>
                 <th>Status</th>
             </tr>

@@ -52,6 +52,62 @@
 
 
 <!-- batas -->
+<section id="contact" class="contact mb-5">
+    <div class="container">
+        <div class="row pt-4 mb-4">
+            <div class="col text-center">
+                <h2>Contact Us</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4">
+                <div class="card text-white bg-primary mb-3 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Contact Us</h5>
+                        <p class="card-text">Hubungi kami dengan sopan dan aman agar sam sama menyenangakan</p>
+                    </div>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item active" aria-current="true">
+                        <h1>Location</h1>
+                    </li>
+                    <li class="list-group-item">My office</li>
+                    <li class="list-group-item">Jl Kh Ahmaddahlan No.4 Palmeriam Mtraman Jakarta Timur</li>
+                    <li class="list-group-item">Wesgt Java indonesia</li>
+
+                </ul>
+            </div>
+
+            <div class="col-lg-6">
+                <form>
+                    <div class="form-group">
+                        <label for="nama">Nama</label>
+                        <input type="text" class="form-control" id="nama">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="nomor">No Tlpon</label>
+                        <input type="text" class="form-control" id="nomor">
+                    </div>
+                    <div class="form-group">
+                        <label for="pesan">Pesan</label>
+                        <textarea name="pesan" id="pesan" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-primary">Kirim Pesan</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- batas -->
+
 
 <footer class="py-5 bg-dark">
     <div class="container">

@@ -1,10 +1,8 @@
 <?= $this->session->flashdata('pesan'); ?>
 <!-- batasbatas -->
 
-
-
-<div class="jumbotron jumbotron-fluid">
-
+<div class="jumbotron">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <div class="container">
         <h1 class="display-4 font-weight-bold">Khatulistiwa Nusantara Hijau Travel</h1>
         <p class="lead">Booking Online Terlengkap - Pesan Tiket BussTerbaik Tanpa Takut Harga Naik. </p>
@@ -67,7 +65,7 @@
                                 <p>
                                     <?php
                                     if ($tiket->stok < 1) {
-                                        echo "<i class='btn btn-outline-primary fas fw fa-shopping-cart'> Booking&nbsp;&nbsp 0</i>";
+                                        echo "<i class='btn btn-outline-primary fas fw fa-shopping-cart'> Booking&nbsp;&nbsp 0</>";
                                     } else {
                                         echo "<a class='btn btn-outline-primary fas fw fa-shopping-cart' href='" . base_url('booking/tambahBooking/' . $tiket->id) . "'> Booking</a>";
                                     }
@@ -83,44 +81,97 @@
     </div>
 </div>
 <!-- texs -->
-<p class="font-weight-bold">TENTANG KAMI.</p>
-<p class="font-weight-normal">Tour and Travel Organizer merupakan usaha jasa yang memberi jasa berupa pelayanantour dan travel domestik. Usaha ini bergerak di bidang pariwisata. Pelayanan yang diberikankepada konsumen dapat disesuaikan dengan paket dan fasilitas yang diinginkan konsumen.Fasilitas yang diberikan kepada konsumen antara lain akomodasi kendaraan (bus, minibus, pesawat terbang), reservasi hotel, reservasi rumah makan/restoran/catering, tiket masuk tempatwisata, tour leader dan tour guide serta fasilitas lainnya sesuai keinginan konsumen. Usaha inimelayani tour ke beberapa tujuan seperti wisata pulau jawa, bali, lombok dan wisatareligi/ziarah</p>
-<p class="font-weight-light">Light weight text.</p>
-<p class="font-italic">Italic text.</p>
+<!-- About Us -->
+<section id="contact" class="contact mb-5">
+    <div class="col text-center">
+        <h2>Services</h2>
+    </div>
+    <div class=" container">
+        <div class="row pt-4 mb-4">
+
+
+
+            <div class="col m6 light">
+                <h5>We Are Professionals</h5>
+                <p>Khatulistiwa Nusantara Hijau Travel Merupakan sebuah perusahaan yang bergerak pada bidang jasa transportasi travel & tour. Perusahaan ini telah melayani berbagai transportasi darat lintas provinsi indonesia. Sebagai sebuah mitra yang melayani masyarakat umum, Khatulistiwa Nusantara Hijau Travel harus turut mengikuti perkembangan teknologi yang ada pada saat ini, agar konsumen pun semakin puas atas apa yang perusahaan ini berikan. Salah satunya adalah dengan menyediakan akses yang mudah dan cepat dalam pemesanan tiketnya.</p>
+            </div>
+            <div class="col m6 light">
+                <p>CLAS BISNIS</p>
+                <div class="progress">
+                    <div class="determinate blue" style="width: 95%"></div>
+                </div>
+                <p>CLAS EXSEKUTIF</p>
+                <div class="progress">
+                    <div class="determinate blue" style="width: 85%"></div>
+                </div>
+                <p>CLAS EKONOMI</p>
+                <div class="progress">
+                    <div class="determinate blue" style="width: 90%"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Clients -->
 
 <!-- tes lis group -->
-<div class="row">
-    <div class="col-4">
-        <div class="list-group" id="list-tab" role="tablist">
-            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
-            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Alamat</a>
-            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
-        </div>
-    </div>
-    <div class="col-8">
-        <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">akuPariwisata atau turisme adalah suatu perjalanan yang dilakukan untuk rekreasi atau liburan dan juga persiapan yang dilakukan untuk aktivitas ini. Seorang .Pariwisata atau turisme adalah suatu perjalanan yang dilakukan untuk rekreasi atau liburan dan juga persiapan yang dilakukan untuk aktivitas ini. Seorang .Pariwisata atau turisme adalah suatu perjalanan yang dilakukan untuk rekreasi atau liburan dan juga persiapan yang dilakukan untuk aktivitas ini. Seorang .Pariwisata atau turisme adalah suatu perjalanan yang dilakukan untuk rekreasi atau liburan dan juga persiapan yang dilakukan untuk aktivitas ini. Seorang .Pariwisata atau turisme adalah suatu perjalanan yang dilakukan untuk rekreasi atau liburan dan juga persiapan yang dilakukan untuk aktivitas ini. Seorang .Pariwisata atau turisme adalah suatu perjalanan yang dilakukan untuk rekreasi atau liburan dan juga persiapan yang dilakukan untuk aktivitas ini. Seorang . adaalah kalakmat</div>
-            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-                <div class="container">
-                    <h3 class="display-4 font-weight-bold">TELOLET TRAVEL</h3>
-                    <p class="lead">Jln Kh Ahmaddahlan No 4 Palmeriam Mataman Jakarta Timur </p>
-                    <p class="lead">081295591063/ 085100725418</p>
-                </div>
+<section id="contact" class="contact mb-5">
+    <div class="container">
+        <div class="row pt-4 mb-4">
+            <div class="col text-center">
+                <h2>Contact Us</h2>
             </div>
-            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-                <div class="container">
-                    <h3 class="display-4 font-weight-bold">TELOLET TRAVEL</h3>
-                    <p class="lead">Untuk lebih jelasnya bisa hubungi kami di layanan ini </p>
-                    <p class="lead">081295591063/ 085100725418</p>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
         </div>
-    </div>
-</div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4">
+                <div class="card text-white bg-primary mb-3 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Contact Us</h5>
+                        <p class="card-text">Hubungi kami dengan sopan dan aman agar sam sama menyenangakan</p>
+                    </div>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item active" aria-current="true">
+                        <h1>Location</h1>
+                    </li>
+                    <li class="list-group-item">My office</li>
+                    <li class="list-group-item">Jl Kh Ahmaddahlan No.4 Palmeriam Mtraman Jakarta Timur</li>
+                    <li class="list-group-item">Wesgt Java indonesia</li>
 
-<br>
+                </ul>
+            </div>
+
+            <div class="col-lg-6">
+                <form>
+                    <div class="form-group">
+                        <label for="nama">Nama</label>
+                        <input type="text" class="form-control" id="nama">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="nomor">No Tlpon</label>
+                        <input type="text" class="form-control" id="nomor">
+                    </div>
+                    <div class="form-group">
+                        <label for="pesan">Pesan</label>
+                        <textarea name="pesan" id="pesan" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-primary">Kirim Pesan</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 <!-- Footer -->
 <footer class="py-3 bg-dark">

@@ -20,7 +20,7 @@
         }
     </style>
     <h3>
-        <center>Laporan Data Tiket Perpustakaan Online</center>
+        <center>Laporan Data Tiket Khatulistiwa Hijau Trafel</center>
     </h3>
     <br />
     <table class="table-data">

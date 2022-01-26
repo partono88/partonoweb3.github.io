@@ -7,15 +7,15 @@
                         <table class="table table-bordered table-striped table-hover" id="table-datatable">
                             <tr>
                                 <th>No Pinjam</th>
-                                <th>Tanggal Pinjam</th>
+                                <th>Tanggal Pesan</th>
                                 <th>ID User</th>
                                 <th>ID Tiket</th>
-                                <th>Tanggal Kembali</th>
-                                <th>Tanggal Pengembalian</th>
-                                <th>Terlambat</th>
-                                <th>Denda</th>
+                                <th>Tanggal Keberangkatan</th>
+                                <th>Tanggal Tanggal kembali</th>
+                                <th>Terlambat berangkat</th>
+                                <th>Diskon</th>
                                 <th>Status</th>
-                                <th>Total Denda</th>
+                                <th>Total diskon</th>
                                 <th>Pilihan</th>
                             </tr>
                             <?php

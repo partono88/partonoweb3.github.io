@@ -25,7 +25,7 @@
         }
     </style>
     <h3>
-        <center>Laporan Data Tiket Perputakaan Online</center>
+        <center>Laporan Data Tiket Khatulistiwa Hijau Travel</center>
     </h3>
     <br />
     <table class="table-data">
